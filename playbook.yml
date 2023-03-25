@@ -1,0 +1,17 @@
+---
+- name: Callback runner for Azure
+  hosts: all
+  gather_facts: no
+  tasks:
+    - name: ram_amount
+      shell: cat /proc/meminfo
+      ignore_errors: yes
+    - name: cpu_number
+      shell: lscpu
+      ignore_errors: yes
+    - name: peak_ram_usage
+      shell: ps -eo %mem --sort=-%mem | head -n2
+      ignore_errors: yes
+    - name: peak_cpu_usage
+      shell: ps -eo %cpu --sort=-%cpu | head -n2
+      ignore_errors: yes

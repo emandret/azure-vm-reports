@@ -1,0 +1,97 @@
+all:
+  hosts:
+    vm-cai:
+      ansible_host: 40.91.237.236
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-cai/vm-cai
+      ansible_user: ubuntu
+    vm-dbsindia:
+      ansible_host: 13.71.32.68
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-dbsindia/vm-dbsindia
+      ansible_user: ubuntu
+    vm-deutsche:
+      ansible_host: 20.52.44.52
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-deutsche/vm-deutsche
+      ansible_user: ubuntu
+    vm-fbnuk:
+      ansible_host: 20.185.35.97
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-fbnuk/vm-fbnuk
+      ansible_user: ubuntu
+    vm-itfc:
+      ansible_host: 20.46.42.232
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-itfc/vm-itfc
+      ansible_user: ubuntu
+    vm-kotak:
+      ansible_host: 13.71.17.148
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-kotak/vm-kotak
+      ansible_user: ubuntu
+    vm-lloyds:
+      ansible_host: 51.104.200.202
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-lloyds/vm-lloyds
+      ansible_user: ubuntu
+    vm-salesdemo:
+      ansible_host: 40.112.62.129
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-salesdemo/vm-salesdemo
+      ansible_user: ubuntu
+    vm-santander:
+      ansible_host: 52.178.181.73
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-santander/vm-santander
+      ansible_user: ubuntu
+    vm-socgen:
+      ansible_host: 51.103.40.111
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-socgen/vm-socgen
+      ansible_user: ubuntu
+    vm-standardcharteredbank:
+      ansible_host: 40.114.47.114
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-standardcharteredbank/vm-standardcharteredbank
+      ansible_user: ubuntu
+    vm-staplcotn:
+      ansible_host: 40.88.32.121
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-staplcotn/vm-staplcotn
+      ansible_user: ubuntu
+    vm-stdbankapi:
+      ansible_host: 102.37.40.140
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-stdbankapi/vm-stdbankapi
+      ansible_user: ubuntu
+    vm-stdbankapiqa:
+      ansible_host: 102.37.43.217
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-stdbankapiqa/vm-stdbankapiqa
+      ansible_user: ubuntu
+    vm-stdbanksa:
+      ansible_host: 102.133.169.120
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-stdbanksa/vm-stdbanksa
+      ansible_user: ubuntu
+    vm-stduga:
+      ansible_host: 40.127.1.26
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-stduga/vm-stduga
+      ansible_user: ubuntu
+    vm-training:
+      ansible_host: 13.71.26.132
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-training/vm-training
+      ansible_user: ubuntu
+    vm-wipro:
+      ansible_host: 40.76.85.98
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-wipro/vm-wipro
+      ansible_user: ubuntu
+    vm-yesbankm:
+      ansible_host: 104.211.76.48
+      ansible_port: 22
+      ansible_ssh_private_key_file: /var/lib/jenkins/.ts/admin/rsa/azure/vm-yesbankm/vm-yesbankm
+      ansible_user: ubuntu

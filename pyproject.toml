@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "azure-vm-reports"
+version = "0.1.0"
+description = ""
+authors = ["Edwy MANDRET <edwy.mandret@traydstream.com>"]
+readme = "README.md"
+packages = [{include = "azure_vm_reports"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ansible = "^7.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
